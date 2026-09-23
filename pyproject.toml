@@ -1,0 +1,9 @@
+[project]
+name = "moq-lab"
+version = "0.4.2"
+description = "Lead-time-aware procurement optimization under MOQ, capacity, budget, and surplus constraints"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
